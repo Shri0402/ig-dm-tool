@@ -1,6 +1,6 @@
 // src/app/api/ping/route.ts
 import { NextResponse } from "next/server";
-import { supabase } from "@/lib/supabaseClient";
+import { supabase } from "../../lib/supabaseClient";
 import { error } from "console";
 
 export async function GET() {
