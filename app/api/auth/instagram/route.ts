@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server'
+import { supabase } from '../../../lib/supabaseClient'
 
 export async function GET() {
   const clientId = process.env.META_APP_ID!
